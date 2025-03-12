@@ -234,7 +234,7 @@ app.get('/statistiques', (req, res) => {
     });
 });
 // Import des modules nécessaires pour l'authentification
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
 // Clé secrète pour la signature des tokens JWT (à changer en production)
